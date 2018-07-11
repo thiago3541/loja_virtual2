@@ -1,0 +1,64 @@
+#cadastro_cliente
+{
+	float: left;
+	padding: 5px;
+	background: #ccc;
+	width: 80%;
+	margin-left: 10%;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+h1.title-page
+{
+	text-align: center;
+}
+
+#cadastro_cliente fieldset
+{
+	padding: 9px;
+	border: 1px solid #666;
+	text-align: left;
+	margin-bottom: 6px;
+}
+
+#cadastro_cliente fieldset legend
+{
+	padding: 6px;
+	background: #7A7A7A;
+	font: 16px Tahoma, Geneva, sans-serif;
+	color: #fff;
+	font-weight: bold;
+	text-shadow: #000 0;
+}
+
+#cadastro_cliente label
+{
+	display: block;
+}
+
+#cadastro_cliente span
+{
+	font: 20px Arial, Geneva, sans-serif;
+
+}
+
+#cadastro_cliente label input.name
+{
+	width: 40%;
+}
+
+#cadastro_cliente label input.sobrenome
+{
+	width: 50%;
+}
+
+input.cadastrar
+{
+	width: 300px;
+	height: 40px;
+	float: left;
+	margin-left: 10%;
+	background: #f5f5f5;
+	margin-top: 5px;
+}

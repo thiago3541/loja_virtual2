@@ -1,0 +1,79 @@
+.produtos-box 
+{
+	
+}
+
+.produtos-box .imgProd img
+{
+	width: 30%;
+}
+
+.produtos-right
+{
+	
+	float: left;
+
+}
+
+
+.produtos-right h1
+{
+	float: left;
+	font: 30px "Trebuched MS", Arial, Helvetica, sans-serif;
+	color: #000;
+	padding-bottom: 2px;
+	margin: 2px;
+	margin-bottom: 2px;
+}
+
+
+.produtos-right .produtos-box
+{
+	
+	float: left;
+	padding: 4px;
+	border: 1px solid #333;
+	height: 400px;
+	
+	margin-right: 2%;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+.produtos-right .produtos-box:hover
+{
+	
+}
+
+.produtos-box
+{
+	text-align: center;
+}
+
+.produtos-box span.title
+{
+	font: 15px "Trebuched MS", Arial, Helvetica, sans-serif;
+}
+
+.produtos-box span.preco{font: 16px "Trebuched MS", Arial, Helvetica, sans-serif; color: #093; font-weight: bold; margin: 3px; margin-left: 10%;}
+
+.produtos-box a#cart
+{
+	float: left;
+	width: 180px;
+	height: 70px;
+	border: 1px;
+	background: url(../images/botoes/btnComprar.jpg) top left no-repeat;
+	margin-top: 15px;
+	margin-left: 63px;
+}
+
+.produtos-box img
+{
+	width: 90%;
+	margin-left: 5%;
+	margin-bottom: 50px;
+	margin-top: 20px;
+	height: 180px;
+}
+

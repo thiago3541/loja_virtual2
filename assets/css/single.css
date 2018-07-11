@@ -1,0 +1,304 @@
+.geral
+{
+	float: left;
+	width: 90%;
+	
+	padding: 5px 0;
+	margin-top: 3px;
+	margin-left: 5%;
+	margin-bottom: 20px;
+}
+
+.geral-left ul#gallery
+{
+	list-style-type: none;
+	float: left;
+	margin-top: 3px;
+}
+
+#gallery img
+{
+	margin-top: 10px;
+	margin-left: 40px;
+	margin-right: 5px;
+}
+
+.divider
+{
+	width: 90%;
+	height: 5px;
+	background: black;
+	clear: both;
+	margin-top: 10px;
+	margin-left: 5%;
+}
+
+h1.title-dados
+{
+	font: 30px Arial, Helvetica, sans-serif;
+	color: #666;
+	padding-top: 7px;
+	margin-top: 15px;
+	margin-bottom: 8px;
+	margin-left: 5%;
+	width: 90%;
+	text-align: left;
+	font-weight: bold;
+}
+
+.content-dados-produto
+{
+	float: left;
+	padding: 4px;
+	
+	width: 90%;
+	height: 400px;
+	margin-left: 5%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.geral-left
+{
+	float: left;
+	width: 30%;
+	height: 450px;
+	
+	margin-right: -100px;
+}
+
+.geral-left a#enviar_amigo
+{
+	float: left;
+	width: 143px;
+	height: 23px;
+	background: url(../images/botoes/enviar_amigo.png) top left no-repeat;
+	margin-top: 20px;
+	margin-left: 30%;
+}
+
+.geral-left a#enviar_amigo:hover
+{
+	background: #ccc;
+}
+
+.geral-right
+{
+	float: right;
+	width: 69%;
+	
+}
+
+.geral-right h1.title
+{
+	font: 22px "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #666;
+	font-weight: bold;
+	float: left;
+	margin: 5px 4px;
+	text-shadow: #000 0 1px 0;
+}
+
+.geral-right .dados-produto
+{
+	float: left;
+	width: 96%;
+	padding: 5px;
+	
+	border: 1px solid #ccc;
+	height: 170px;
+	margin-left: 2%;
+	margin-right: 2%;
+	position: relative;
+	border: 1px solid #000;
+}
+
+.geral-right .dados-produto span.de
+{
+	float: left;
+	display: block;
+	width: 100%;
+	text-align: left;
+	font: 18px "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #CA0000;
+	text-shadow: #900 0 1px 0;
+	margin-left: 4px;
+}
+
+.geral-right .dados-produto span.por
+{
+	float: left;
+	display: block;
+	width: 100%;
+	text-align: left;
+	font: 26px "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #090;
+	text-shadow: #900 0 1px 0;
+	margin-left: 4px;
+	margin-top: 4px;
+}
+
+.dados-produto .qtd
+{
+	position: absolute;
+	right: 5px;
+	bottom: 10px;
+	width: 20%;
+	background: #f4f4f4;
+	height: 110px;
+	float: left;
+}
+
+.qtd label
+{
+	display: block;
+	text-align: left;
+	float: left;
+}
+
+.qtd label span
+{
+	float: left;
+	font: 15px "Trebuchet MS", Arial, Helvetica, sans-serif;
+	
+	font-weight: bold;
+	margin-right: 5px;
+}
+
+.qtd label input
+{
+	float: right;
+	padding: 4px;
+	background: #fff;
+	border: 1px solid #666;
+	width: 50px;
+	margin-left: 5px;
+	font: 15px "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #666;
+	text-align: center;
+}
+
+.qtd label input#qtd
+{
+	float: left;
+}
+
+.qtd input#btn-buy
+{
+	width: 82px;
+	height: 27px;
+	background: url() top left no-repeat;
+	border: 1px solid #666;
+	float: left;
+	margin-top: 35px;
+	cursor: pointer;
+	margin-left: 60px;
+}
+
+.geral-right h2.related
+{
+	float: left;
+	padding: 5px;
+	background: #fff;
+	border: 1px solid #666;
+	margin-top:  20px;
+	width: 96%;
+	text-align: left;
+	margin-left: 2%;
+	margin-right: 2%;
+	font: 17px Tahoma, Geneva, sans-serif;
+	color: #666;
+	font-weight: bold;
+}
+
+#related
+{
+	float: left;
+	width: 96%;
+	background: #fff;
+	overflow: hidden;
+	margin-left: 2%;
+	margin-right: 2%;
+	margin-bottom: 10px;
+
+}
+
+.prod_rel
+{
+	float: left;
+	width: 245px;
+	padding: 5px;
+	background: #f4f4f4;
+	border: 1px solid #000;
+	margin-top: 10px;
+	margin-left: 6px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+.prod_rel img
+{
+	width: 100%;
+}
+
+.prod_rel span
+{
+	font: 14px "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #069; 
+}
+
+.prod_rel span.title
+{
+	width: 100%;
+}
+
+.prod_rel span.preco
+{
+	width: 100%;
+	color: #333;
+}
+
+.prod_rel a#cart
+{
+	float: left;
+	width: 100%;
+	height: 50px;
+	border: 1px;
+	background: url(../images/botoes/btnComprar2.jpg) top left no-repeat;
+	margin-top: 15px;
+	margin-left: 35px;
+}
+
+.geral-right .dados-produto span.parcelas
+{
+	float: left;
+	font: 15px "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #666;
+	margin: 5px 0;
+}
+
+.dados-produto span.exemplares
+{
+	float: left;
+	margin: 4px 0;
+	margin-top: 70px;
+	margin-left: -200px;
+	font: 16px "Trebuchet MS", Arial, Helvetica, sans-serif;
+	width: 70%;
+	color: #666;
+	font-weight: bold;
+	text-align: left;
+}
+
+.geral-left .img-big
+{
+	width: 82%;
+	height: 200px;
+	background: #fff;
+	margin-left: 9%;
+	margin-right: 2%;
+	margin-top: 10px;
+	overflow: hidden;
+}
+
+

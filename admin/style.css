@@ -1,0 +1,92 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+#box_log
+{
+	width: 50%;
+	margin-left: 25%;
+	margin-top: 15%;
+	border: 2px solid #666;
+	position: absolute;
+}
+
+#box_log h1
+{
+	text-align: center;
+	background: #000;
+	padding: 8px;
+	font: 20px Tahoma, Geneva, sans-serif;
+	color: #fff;
+	font-weight: bold;
+	text-shadow: #000 0 1px 0;
+	width: 98.5%;
+}
+
+#box_log form label
+{
+	text-align: center;
+	display: block;
+	margin: 5px o;
+}
+
+#box_log span
+{
+	float: left;
+	display: block;
+	margin: 6px 4px;
+	font: 15px Tahoma Geneva, sans-serif;
+	width: 100%;
+}
+
+#box_log form label input
+{
+	padding: 6px;
+	margin: 4px;
+	background: #fff;
+	border: 1px solid #000;
+	width: 40%;
+	outline: none;
+	border-radius: 6px;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+}
+
+#box_log form label input:focus
+{
+	background: #f5f5f5;
+}
+
+#box_log input[type=submit]
+{
+	width: 10%;
+	float: right;
+	padding: 6px 8px;
+	background: #000;
+	font: 15px Tahoma, Geneva, sans-serif;
+	font-weight: bold;
+	color: #fff;
+	margin-right: 30%;
+	border-radius: 15px;
+}
+
+#box_log input[type=submit]:hover
+{
+	cursor: pointer;
+}
+
+.aviso 
+{
+	float: left;
+	padding: 5px;
+	width: 80%;
+	font: 16px Tahoma, Geneva, sans-serif;
+	background: #FFFFCA;
+	border: 1px solid #FFFF42;
+	color: #000;
+	margin-left: 10%;
+	margin-top: 5px;
+}
+

@@ -1,0 +1,182 @@
+.carrinho-page 
+{
+	float: left;
+	width: 90%;
+	margin-left: 5%;
+}
+
+.carrinho-page h1.title-page
+{
+	text-align: center;
+	font: 30px Tahoma, Geneva, sans-serif;
+	padding-top: 7px;
+	margin-top: 7px;
+	margin-bottom: 15px;
+}
+
+.carrinho-page table.carrinho
+{
+	border-collapse: collapse;
+	width: 100%;
+	margin-bottom: 20px;
+	border: 3px solid #ccc;
+}
+
+.carrinho-page table.carrinho thead
+{
+	font-weight: normal;
+	font: 17px Tahoma, Geneva, sans-serif;
+	color: #666;
+	background: #f5f5f5;
+}
+
+.carrinho-page table.carrinho thead tr th
+{
+	padding: 5px 0;
+	text-align: center;
+}
+
+.carrinho-page table.carrinho tbody
+{
+	font: 16px Tahoma, Geneva, sans-serif;
+	color: #666;
+	text-align: center;
+}
+
+.carrinho-page table.carrinho tbody tr td
+{
+	padding: 15px 5px;
+}
+
+.carrinho-page table.carrinho tbody input
+{
+	padding: 4px;
+	border: 1px solid #ccc;
+	font: 17px Tahoma, Geneva, sans-serif;
+	color: #ccc;
+	text-align: center;
+	outline: none;
+}
+
+.carrinho-page table.carrinho tbody input#update
+{
+	float: left;
+	padding: 5px;
+	background: #f5f5f5;
+	border: 0;
+	font: 15px Tahoma, Geneva, sans-serif;
+	color: #666;
+	font-weight: bold;
+}
+
+.carrinho-page table.carrinho tbody input#update:hover
+{
+	background: #000;
+	font: 15px Tahoma, Geneva, sans-serif;
+	color: #fff;
+
+}
+
+.carrinho-page table.carrinho tbody input:focus
+{
+	border-color: #333;
+}
+
+.carrinho-page .opcoes
+{
+	float: left;
+	padding: 5px;
+	background-color: #ddd;
+	border: 1px solid #666;
+	margin-top: 10px;
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.opcoes .calcular
+{
+	float: left;
+	padding: 4px;
+	background: #f5f5f5;
+	width: 25%;
+	height: 200px;
+	margin-left: 5%;
+}
+
+.opcoes .calcular form label
+{
+	display: block;
+	margin: 5px 0;
+}
+
+.opcoes .calcular form label span
+{
+	display: block;
+	font: 16px Tahoma, Geneva, sans-serif;
+	color: #666;
+	font-weight: bold;
+	margin: 5px 0;
+	float: left;
+	width: 100%;
+}
+
+.opcoes .outros
+{
+	float: right;
+	padding: 4px;
+	background: #f5f5f5;
+	width: 40%;
+	height: 200px;
+}
+
+.outros span.resultado-frete
+{
+	float: left;
+	padding: 5px;
+	background: #ccc;
+	width: 100%;
+	font: 17px Tahoma, Geneva, sans-serif;
+	color: #333;
+	text-transform: uppercase;
+}
+
+.outros a.continuar
+{
+	padding: 6px;
+	float: left;
+	background: #069;
+	border: 0;
+	font: 18px Tahoma, Geneva, sans-serif;
+	color: #fff;
+	text-shadow: #000 0 1px 0;
+	box-shadow: #000 0 1px 2px;
+	text-decoration: none;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+.outros a.continuar:hover{background: #036;}
+
+
+.outros a.finalizar
+{
+	padding: 6px;
+	float: right;
+	background: #090;
+	border: 0;
+	font: 18px Tahoma, Geneva, sans-serif;
+	color: #fff;
+	text-shadow: #000 0 1px 0;
+	box-shadow: #000 0 1px 2px;
+	text-decoration: none;
+	margin-top: 10px;
+	margin-right: 10px;
+}
+
+.outros a.finalizar:hover{background: #060;}
+
+input#update
+{
+	margin-left: 190px;
+	margin-right: -45px;
+}

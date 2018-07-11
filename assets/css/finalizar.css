@@ -1,0 +1,22 @@
+fieldset
+{
+	display: block;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding-top: 0.35em;
+    padding-bottom: 0.625em;
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+    border: 2px groove (internal value);
+    border-width: 6px;
+}
+
+h1
+{
+	text-align: center;
+}
+
+#efetuaPagamento
+{
+	margin-left: 25%;
+}

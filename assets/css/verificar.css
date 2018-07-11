@@ -1,0 +1,122 @@
+.title
+{
+	margin-top: 20px;
+	margin-left: 23%;
+}
+
+.title span.titulo
+{
+	font: 25px Tahoma, Geneva, sans-serif;
+	color: #000;
+	font-weight: bold;
+}
+
+.title span.subtitulo
+{
+	font: 14px Tahoma, Geneva, sans-serif;
+	color: #000;
+	font-weight: bold;
+}
+
+#verification
+{	
+	float: left;
+	width: 60%;
+	margin-left: 20%;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	text-align: center;
+}
+
+#verification span.spn-title
+{	
+	font: 17px Tahoma, Geneva, sans-serif;
+ 	color: #000;
+    font-weight: bold;
+  	text-align: left;
+	padding: 4px 2px;
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+
+#verification .text
+{
+	float: left;
+	background: #eee;
+	padding: 4px;
+	width: 40%;
+	margin-left: 5%;	
+	height: 234px;
+}
+
+#verification .text span.spn-title
+{
+	width: 20%;
+}
+
+#verification .text p
+{
+	font: 17px Tahoma, Geneva, sans-serif;
+	color: #000;
+	text-align: justify;
+	padding: 4px 2px;
+	margin-top: 20px;
+}
+
+#verification .text p a
+{
+	float: right;
+}
+
+#verification .logar
+{
+	float: left;
+	padding: 4px;
+	width: 40%;
+	text-align: left;
+	margin-left: 45px;
+	opacity: 0.5;
+
+}
+
+#verification .logar label span
+{
+	float: left;
+	display: block;
+	width: 100%;
+	margin: 5px 0;
+	font: 17px Tahoma, Geneva, sans-serif;
+	color: #000;
+	
+}
+
+.logar input.email
+{
+	width: 400px;
+	border: 1px solid #000;
+}
+
+.logar input.senha
+{
+	width: 400px;
+	border: 1px solid #000;
+}
+
+.logar input.submit
+{
+	margin-top: 10px;
+	width: 100px;
+	height: 50px;
+	margin-left: 25%;
+	border: 1px solid #000;
+	font: 13px Tahoma, Geneva, sans-serif;
+	color: #000;
+	font-weight: bold;
+	float: left;
+}
+
+.logar form a
+{
+	text-align: center;
+}
