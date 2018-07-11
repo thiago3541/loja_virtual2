@@ -1,0 +1,30 @@
+.box-log
+{
+	width: 450px;
+	border: 1px solid #333;
+	padding: 6px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -225px;
+	margin-top: -150px;
+}
+
+.box-log h1
+{
+	
+	padding: 4px;
+	font-weight: bold;
+}
+
+.box-log span
+{
+	font: 18px Tahoma, sans-serif;
+}
+
+.box-log input
+{
+	border: 1px solid #000;
+	width: 100%;
+	margin-top: 15px;
+}
